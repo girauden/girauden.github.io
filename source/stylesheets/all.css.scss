@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  // padding: 18vh 1rem;
+  text-align: center;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+#heading {
+  background-color: #e8a538;
+  height: 50vh;
+  h1 {
+    font-size: 40px;
+    padding-top: 10vh;
+    margin: 0;
+  }
+}
