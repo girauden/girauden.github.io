@@ -2,14 +2,13 @@
 @import "bootstrap";
 
 body {
-  background-color: #eee;
+  background-color: #D7D7FF;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   // padding: 18vh 1rem;
-  text-align: center;
 }
 
 a {
@@ -22,11 +21,30 @@ a {
 }
 
 #heading {
-  background-color: #e8a538;
-  height: 50vh;
+  background-color: #8080ff;
+  height: 45vh;
+  text-align: center;
+}
+
+#greeting {
+  padding-top: 12vh;
+  h2 {
+    font-size: 28px;
+  }
   h1 {
-    font-size: 40px;
-    padding-top: 10vh;
-    margin: 0;
+    font-size: 55px;
+    padding-bottom: 18px;
+  }
+}
+
+#intro {
+  padding-top: 70px;
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  p {
+    padding-top: 30px;
+    font-size: 20px;
   }
 }
