@@ -4,6 +4,13 @@
 $primary-color: #8080ff;
 $secondary-color: #d7d7ff;
 
+.padded {
+  padding: 80px;
+}
+.color-container {
+  background-color: $primary-color;
+}
+
 body {
   text-align: center;
   background-color: $secondary-color;
@@ -21,19 +28,17 @@ body {
   }
   h3 {
     font-size: 40px;
+    margin-bottom: 60px;
   }
   p {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     font-size: 20px;
     text-align: justify;
   }
-}
-
-.padded {
-  padding: 50px;
-}
-.strap-content {
-  background-color: $primary-color;
+  ul {
+  /* padding-top: 20px; */
+  font-size: 25px;
+  }
 }
 
 #heading {
@@ -42,8 +47,17 @@ body {
   padding-top: 80px;
 }
 
-ul {
-  padding-top: 20px;
-  font-size: 25px;
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
+.experience-frame {
+  padding-right: 200px;
+  padding-bottom: 60px;
+}
+
+.experience-entitled {
+  font-weight: bold;
+}
