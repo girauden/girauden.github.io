@@ -5,7 +5,8 @@ $primary-color: #8080ff;
 $secondary-color: #d7d7ff;
 
 .padded {
-  padding: 80px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 .color-container {
   background-color: $primary-color;
@@ -33,7 +34,7 @@ body {
   p {
     /* padding-top: 30px; */
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
   }
   ul {
   /* padding-top: 20px; */
@@ -51,13 +52,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  ul {
+    font-size: 20px;
+    text-align: left;
+  }
 }
 
 .experience-frame {
-  padding-right: 200px;
+  width: 80%;
   padding-bottom: 60px;
 }
 
-.experience-entitled {
+.experience-frame-entitled {
   font-weight: bold;
+}
+
+.experience-years {
+  width: 10%;
 }
