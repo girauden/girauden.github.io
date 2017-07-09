@@ -1,7 +1,18 @@
----
-title: Denis Giraud
----
-<div id="heading">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Denis Giraud</title>
+    <link href="/stylesheets/all.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+    <link href="/images/favicon.ico" rel="icon" type="image/ico" />
+  </head>
+  <body>
+    <div id="heading">
   <div>
     <h2>Hi, i am</h2>
     <h1>
@@ -27,15 +38,15 @@ title: Denis Giraud
   <h3>Skills</h3>
   <div id="skills-icons">
     <div>
-      <%= image_tag 'ruby.svg' %>
+      <img src="/images/ruby.svg" alt="Ruby" />
       <p>RUBY / RAILS</p>
     </div>
     <div>
-      <%= image_tag 'html.svg' %>
+      <img src="/images/html.svg" alt="Html" />
       <p>HTML 5</p>
     </div>
     <div>
-      <%= image_tag 'css.svg' %>
+      <img src="/images/css.svg" alt="Css" />
       <p>CSS 3</p>
     </div>
   </div>
@@ -138,10 +149,13 @@ title: Denis Giraud
 <footer class="color-container padded">
   <div id="footer-links">
     <div>
-      <%= link_to image_tag('github.svg'), 'https://github.com/girauden', target: :_blank %>
+      <a href="https://github.com/girauden" target="_blank"><img src="/images/github.svg" alt="Github" /></a>
     </div>
     <div>
-      <%= mail_to 'giraud.de@gmail.com', image_tag('mail.svg') %>
+      <a href="mailto:giraud.de@gmail.com"><img src="/images/mail.svg" alt="Mail" /></a>
     </div>
   </div>
 </footer>
+
+  </body>
+</html>
