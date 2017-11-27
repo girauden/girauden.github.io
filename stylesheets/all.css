@@ -5821,6 +5821,9 @@ body {
   body img {
     width: 50px; }
 
+#aboutme p {
+  text-align: center; }
+
 #heading {
   background-color: #8080ff;
   height: 400px;
